@@ -1,4 +1,4 @@
-#Instalación de dependencias para backend
+## Instalación de dependencias para backend
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -6,13 +6,13 @@
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
 
-#Creación del servidor 
+## Creación del servidor 
 -index.js
 
-#Creación de estructura de archivos MVC
+## Creación de estructura de archivos MVC
 -models -apis -controllers
 
-#Creación de archivo de comunicación con bases de datos
+## Creación de archivo de comunicación con bases de datos
 -config
 
 ## Crear modelos para la base de datos
