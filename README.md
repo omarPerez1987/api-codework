@@ -1,7 +1,7 @@
 # api-codework
 proyecto 5º del Bootcamp 
 
--servidor backend para la conexion con el frontend y traer los datos de la DB
+-servidor backend para la conexion con el frontend y comunicación de datos con la DB
 
 ### Instalación de dependencias para backend
     "cors": "^2.8.5",
