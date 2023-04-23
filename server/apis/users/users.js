@@ -7,7 +7,7 @@ const { getUser, createUser, editUser, deleteUser, existsUser } =
 // RUTA REGISTRO USUARIO
 
 router.get("/users/get", async (req, res) => {
-  const dataEmail = req.body.email;
+  const dataEmail = req.query.email;
   try {
     const showUser = await getUser(dataEmail);
     res
